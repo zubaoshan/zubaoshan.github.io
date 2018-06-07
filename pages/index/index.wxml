@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+<image class='house' src='./img/house.png'></image>
+  <view >
+    <text>{{motto}}</text>
+  </view>
+  <view class='des'>
+    <text>{{des}}</text>
+  </view>
+  <view class='dep'></view>
+  <view class='warp' bindtap="getAtreebute">
+      <image class='imageFirst' src='./img/dizhi.png'></image>
+      <view style='float: left;'>西合营镇营中路(天润嘉园南)</view>
+      <image class='imageLast' src='./img/arrow.png'></image>
+  </view>
+  <view class='warp'>
+      <image class='imageFirst' src='./img/time.png'></image>
+      <view style='float: left;'>7:00-22:00</view>
+  </view>
+  <view class='warp' bindtap="call">
+      <image class='imageFirst' src='./img/tel.png'></image>
+      <view style='float: left;'>13231369855</view>
+      <image class='imageLast' src='./img/arrow.png'></image>
+  </view>
+  <view class='warp'>
+      <image class='imageFirst' src='./img/pian.png'></image>
+      <view style='float: left;'>门店照片</view>
+  </view>
+  <view>
+    <image class='photo' src='./img/photo.jpg'></image>
+  </view>
+  <view>
+    <image class='photo' src='./img/bed.jpg'></image>
+  </view>
+</view>

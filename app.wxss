@@ -1,0 +1,5 @@
+/**app.wxss**/
+.container {
+  margin: 50PX 30PX;
+  position: relative;
+} 

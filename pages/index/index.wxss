@@ -1,0 +1,40 @@
+/**index.wxss**/
+.des{
+  font-size: 12px;
+  margin-top: 5px;
+  color: #999999;
+}
+.dep{
+  width: 100%;
+  height:20px;
+  border-bottom: 2px dotted #999999;
+  margin-bottom: 8px;
+}
+.warp{
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+}
+.imageFirst{
+  width:20px;
+  height: 20px;
+  margin: 7px 5px 0 0; 
+  float: left
+}
+.imageLast{
+  width:20px;
+  height: 20px;
+  margin: 9px 5px 0 0;
+  float: right
+}
+.photo{
+  width:200px;
+  height:200px;
+}
+.house{
+  width:50px;
+  height:50px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
